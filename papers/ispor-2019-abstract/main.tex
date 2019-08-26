@@ -1,0 +1,58 @@
+\documentclass{article}
+
+
+\usepackage{arxiv}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+
+
+\title{TRANSPARENT META-ANALYSES ENABLED BY BLOCKCHAIN TECHNOLOGY}
+
+\author{
+  Jaclyn Hearnden \\
+   \And
+  Justin D.~Harris \\
+  Microsoft Research\\
+  Montreal, Canada \\
+  \texttt{justin.harris@}
+}
+
+\begin{document}
+\maketitle
+
+% keywords can be removed
+\keywords{Meta-anlysis \and Blockchain \and Reproducibility}
+
+
+\section{OBJECTIVES}
+\label{sec:objectives}
+Blockchain applications have proven useful in clinical research and healthcare to improve transparency and accountability.
+These same principles can be applied to meta-analyses involving clinical trial data to ensure the quality of health economics and outcomes research.
+
+
+\section{METHODS}
+\label{sec:methods}
+Smart contracts are code that exist on a blockchain, they are typically designed to publicly disclose the result of a computation.
+We propose the use of a smart contract aligned with standard guidelines to compute the results of meta-analyses.
+Toward this goal, clinical trial publication data are stored in easily accessible tables (or, hash maps), each uniquely identified.
+Later analyses, each in their own smart contract, refer to these publications by their unique identifiers and associated fields.
+The results of all analyses stemming from clinical trial publications are contributed to a master smart contract as a new entry along with the original data.
+If a mistake is made in the variables or computation of a given meta-analysis, then analyses that depend on it can be easily updated by the creation of this network linking the reviews and studies by dependencies.
+Decentralization of this network, as mandated by blockchain technology, ensures that no body is responsible for its maintenance and numerous parties may validate the computations.
+Further, this structure favors transparency, and thereby helps to expose biases that may affect comparative-effectiveness research.
+
+\section{CONCLUSIONS}
+\label{sec:conclusions}
+% TODO Cite.
+The number of clinical trials posting results per year has climbed to over 36,000.
+Tracking and combining their successive analyses and results demands a decentralized network of trust, as we propose would be supported by blockchain technology. 
+
+\bibliographystyle{unsrt}  
+\bibliography{references}
+
+\end{document}
